@@ -7,7 +7,7 @@ names_1 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
 f = open('names_2.txt', 'r')
-names_2 = f.read().split("\n")  # List containing 10000 names
+names_2 = f.read().split("\n")  # List containing 10000 names.
 f.close()
 
 duplicates = []
